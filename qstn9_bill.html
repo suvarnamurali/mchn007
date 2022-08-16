@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table cellspacing="0px" align="center" width="100%">
+        <tr>
+           <h1 collspan="2" align="center">Products Billing</h1> 
+        </tr>
+        <tr>
+           <td>Search Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+           <td>
+            <form id="form">
+                <input type="search" id="query" name="q" placeholder="Search" size="190">
+            </form>
+           </td> 
+        </tr>
+        <tr>
+            <td colspan="2"><br />
+                <table border="1" align="center" bordercolor="#D3D3D3" width="100%" cellspacing="0px" cellpadding="6px" >
+                    <tr bgcolor="grey" height="60px" >
+                        <th>Id</th>
+                        <th>Product Name</th>
+                        <th>Descriptio</th>
+                        <th>Categorie</th>
+                        <th>Sub Categorie</th>
+                        <th>Qty</th>
+                        <th>Purchase</th>
+                    </tr>
+    
+                    <tr align="center">
+                        <td>1</td>
+                        <td>Macbook Pro</td>
+                        <td>8GB/256 GB SSD</td>
+                        <td>Electronics</td>
+                        <td>Computers</td>
+                        <td>50</td>
+                        <td><input type="button" value="add"></td>
+                    </tr>
+                    <tr align="center">
+                        <td>2</td>
+                        <td>Macbook air</td>
+                        <td>8GB/256 GB SSD</td>
+                        <td>Electronics</td>
+                        <td>Computers</td>
+                        <td>30</td>
+                        <td><input type="button" value="add"></td>
+                    </tr>
+                    <tr align="center">
+                        <td>3</td>
+                        <td>Iphone 13 Pro</td>
+                        <td>8GB/256 GB SSD</td>
+                        <td>Electronics</td>
+                        <td>Mobile</td>
+                        <td>100</td>
+                        <td><input type="button" value="add"></td>
+                    </tr>
+                    <tr align="center">
+                        <td>4</td>
+                        <td>Iphone 12 Pro</td>
+                        <td>8GB/256 GB SSD</td>
+                        <td>Electronics</td>
+                        <td>Mobile</td>
+                        <td>100</td>
+                        <td><input type="button" value="add"></td>
+                    </tr>
+                </table> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><br /><h2>Invoice</h2></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">Date of Purchase &nbsp;&nbsp;28/04/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2"><br />
+                <table border="1" align="center" bordercolor="#D3D3D3" width="100%" cellspacing="0px" cellpadding="6px" >
+                    <tr bgcolor="grey" height="60px" >
+                        <th>Id</th>
+                        <th>Product Name</th>
+                        <th>Descriptio</th>
+                        <th>Selected Quantity</th>
+                        <th>Amount</th>
+                        <th></th>
+                       </tr>
+    
+                    <tr align="center">
+                        <td>1</td>
+                        <td>Macbook Pro</td>
+                        <td>8GB/256 GB SSD</td>
+                        <td><select name="number" multipe size="2" ><option value="1">1</option></select></td>
+                        <td>Rs.120000</td>
+                        <td><input type="button" value="Delete"></td>
+                    </tr>
+                    <tr align="center">
+                        <td>2</td>
+                        <td>Macbook air</td>
+                        <td>8GB/256 GB SSD</td>
+                        <td><select name="number" multipe size="2" ><option value="1">1</option></select></td>
+                        <td>Rs.75000</td>
+                        <td><input type="button" value="Delete"></td>
+                    </tr>
+        </table> 
+        </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right"> Total Amount&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;195000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+       <tr>
+            <td align="center" colspan="2"><br /><br /><br />
+                <input type="button" value="CHECKOUT" style="width:250px;height:30px">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
